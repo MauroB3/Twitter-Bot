@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/MauroB3/GuidoKaczkaBot#readme",
   "dependencies": {
-    "forever": "^1.0.0",
+    "braces": "^2.3.2",
     "twit": "^2.2.11"
   }
 }
