@@ -39,6 +39,14 @@ access_token_secret:  '...',
 "This is an example",
 ```
 
+### Customizing the time between tweets
+
+The number of the following line in the [/src/index.js](https://github.com/MauroB3/Twitter-Bot/blob/master/index.js) file determines the time between each tuit (in milliseconds):
+```
+setInterval(tweet, 3600000);
+```
+By default it's set to an hour, but you can customize it as you wish.
+
 ### Run
 
 * Just execute the following command (being in the source dir)
