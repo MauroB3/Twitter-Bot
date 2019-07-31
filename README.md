@@ -48,7 +48,8 @@ npm start
 
 ## Tweet format
 
-Twitter doesn't allow us to tweet the same phrase twice, so we must add something that make the tweet unique. The easiest way to do that is just adding the number of the tweet at the beginning (which will always be unique).```
+Twitter doesn't allow us to tweet the same phrase twice, so we must add something that make the tweet unique. The easiest way to do that is just adding the number of the tweet at the beginning (which will always be unique).
+```
 	[tweet number] Your phrase.
 ```
 
