@@ -31,11 +31,30 @@ npm install
 ```
 * Also replace the screen_name (your account name) and user_id (which you can get [here](https://https://tweeterid.com))
 
+### Adding custom phrases
+
+* Fill the [/src/content.js](https://github.com/MauroB3/Twitter-Bot/blob/master/src/content.js) file with your custom phrases.
+```
+	"Put all your phrases here",
+	"This is an example",
+```
+
 ### Run
 
 * Just execute the following command (being in the source dir)
 ```
 npm start
+```
+
+## Tweet format
+
+Twitter doesn't allow us to tweet the same phrase twice, so we must add something that make the tweet unique. The easiest way to do that is just adding the number of the tweet at the beginning (which will always be unique).```
+	[tweet number] Your phrase.
+```
+
+For example:
+```
+	[1] I'm a tweet.
 ```
 
 ## Contribution
