@@ -22,12 +22,12 @@ npm install
 * Create a twitter app [here](https://developer.twitter.com/en/apps)
 * In the app that you've created, go to "Keys and tokens" and fill that info en the [/src/twit.js](https://github.com/MauroB3/Twitter-Bot/blob/master/src/twit.js) file. 
 ```
-  user_id: "...", 
-  sceen_name: "...",
-  consumer_key:         '...',
-  consumer_secret:      '...',
-  access_token:         '...',
-  access_token_secret:  '...',
+user_id: "...", 
+sceen_name: "...",
+consumer_key:         '...',
+consumer_secret:      '...',
+access_token:         '...',
+access_token_secret:  '...',
 ```
 * Also replace the screen_name (your account name) and user_id (which you can get [here](https://https://tweeterid.com))
 
@@ -35,8 +35,8 @@ npm install
 
 * Fill the [/src/content.js](https://github.com/MauroB3/Twitter-Bot/blob/master/src/content.js) file with your custom phrases.
 ```
-	"Put all your phrases here",
-	"This is an example",
+"Put all your phrases here",
+"This is an example",
 ```
 
 ### Run
@@ -50,12 +50,12 @@ npm start
 
 Twitter doesn't allow us to tweet the same phrase twice, so we must add something that make the tweet unique. The easiest way to do that is just adding the number of the tweet at the beginning (which will always be unique).
 ```
-	[tweet number] Your phrase.
+[tweet number] Your phrase.
 ```
 
 For example:
 ```
-	[1] I'm a tweet.
+[1] I'm a tweet.
 ```
 
 ## Contribution
