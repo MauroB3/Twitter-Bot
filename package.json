@@ -1,5 +1,5 @@
 {
-  "name": "GuidoKaczkaBot",
+  "name": "TwitterBot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MauroB3/GuidoKaczkaBot.git"
+    "url": "git+https://github.com/MauroB3/Twitter-Bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MauroB3/GuidoKaczkaBot/issues"
+    "url": "https://github.com/MauroB3/Twitter-Bot/issues"
   },
-  "homepage": "https://github.com/MauroB3/GuidoKaczkaBot#readme",
+  "homepage": "https://github.com/MauroB3/Twitter-Bot#readme",
   "dependencies": {
     "braces": "^2.3.2",
     "twit": "^2.2.11"
